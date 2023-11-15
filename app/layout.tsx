@@ -1,5 +1,5 @@
-import { inter } from '@/app/ui/fonts';
-import '@/app/ui/global.css';
+import { inter } from "@/app/ui/fonts";
+import "@/app/ui/global.css";
 
 export default function RootLayout({
   children,
@@ -11,9 +11,7 @@ export default function RootLayout({
       <head>
         <title>Next.js example</title>
       </head>
-      <body className={`${inter.className} antialiased`}>
-        {children}
-      </body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
